@@ -51,7 +51,6 @@ def score_word(word):
         else:
             total_score += 0  
 
-    
     if len(word) >= 7 and len(word) <= 10:
         total_score += 8  
 
@@ -59,4 +58,15 @@ def score_word(word):
 
 
 def get_highest_word_score(word_list):
-    pass
+
+    best_word = ""
+    best_score = 0
+
+    for word in word_list:
+        score = score_word(word)  
+
+    return (best_word)
+
+        
+
+        
